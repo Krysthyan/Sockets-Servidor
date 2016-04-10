@@ -1,0 +1,28 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package sistemasdistribuidossocketservidor;
+
+import java.io.IOException;
+import sistemasdistribuidossocketservidor.Srv.ConeccionSocket;
+
+
+
+/**
+ *
+ * @author kryshedz
+ */
+public class SistemasDistribuidosSocketServidor {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) throws IOException, ClassNotFoundException {
+        // TODO code application logic here
+        ConeccionSocket coneccionSocket=new ConeccionSocket();
+        coneccionSocket.conectar();
+    }
+    
+}
